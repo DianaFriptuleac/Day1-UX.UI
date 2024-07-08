@@ -249,14 +249,14 @@ footer a {
 }
 
 
-/* Mobile*/
+/* Mobile-view*/
 @media screen and (min-width: 300px) {
     .logo_epicode img {
         width: 50%;
     }
 }
 
-/*Tablet*/
+/*Medium-view*/
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     table {
@@ -272,7 +272,7 @@ footer a {
     }
 }
 
-/*Schermo*/
+/*Desktop-view*/
 @media screen and (min-width: 1200px) {
 
     body {
