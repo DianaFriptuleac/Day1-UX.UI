@@ -346,11 +346,21 @@ footer a {
     }
 
     .video iframe {
-        height: 18vh;
+        height: 100%;
         width: 100%;
     }
     input {
         width: 70%;
     }
+    .container-articoli-correlate{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .container-articoli-correlate div{
+        display: flex;
+        flex-direction: column;
 
-}
+    }
+
+} 
