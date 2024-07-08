@@ -271,6 +271,7 @@ footer a {
         width: 70%;
     }
 }
+
 /*Schermo*/
 @media screen and (min-width: 1200px) {
 
@@ -280,47 +281,50 @@ footer a {
     }
 
     header {
-        background: rgb(0,160,198);
-        background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
         text-align: left;
         display: flex;
         flex-direction: row;
         align-items: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: white;
-        box-shadow: 0 3px 3px #444;
-        margin-bottom: 1.5em;
-        padding: 1em 2em;
+        padding: 0;
+        height: 7vh;
     }
+
     header div img {
-        width: 70%;
+        margin-bottom: 0;
+        font-weight: 500;
+        margin-left: 1.5em;
+        margin-top: 1em;
     }
+
     header div p {
-        margin: 0px;
+        margin: 2.5em;
     }
+
+    header p {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
     header nav {
         margin-left: auto;
     }
+
     header nav ul {
         margin: 0px;
         display: flex;
         flex-direction: row;
     }
+
     header nav li {
         margin: 0px 10px;
         list-style: none;
     }
+
     header nav li a {
         color: white;
         text-decoration: none;
     }
-    header nav li a:hover {
-        color: red;
-    }
-    header nav li a::before {
-        content: "\22c6\0020";
-    }
+
     main h1 {
         font-size: 6rem;
     }
@@ -341,7 +345,8 @@ footer a {
     .video {
         flex: 1;
     }
-    .section{
+
+    .section {
         width: 50%;
     }
 
@@ -349,18 +354,30 @@ footer a {
         height: 100%;
         width: 100%;
     }
+
     input {
         width: 70%;
     }
-    .container-articoli-correlate{
-        display: flex;
-        flex-direction: column;
-      
-    }
-    .container-articoli-correlate div{
-        display: flex;
-        flex-direction: column;
 
+    .asside-container {
+        display: flex;
+        margin: 2em;
+        justify-content: space-between;
+        margin-top: 2em;
     }
 
-} 
+    aside h2 {
+        font-size: 1.5em;
+    }
+
+    footer {
+        height: 12vh;
+        font-size: 0.8em;
+    }
+
+    footer address {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+}
