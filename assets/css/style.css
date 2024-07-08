@@ -280,36 +280,47 @@ footer a {
     }
 
     header {
-        padding: 0;
-
-    }
-
-    header {
+        background: rgb(0,160,198);
+        background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
+        text-align: left;
         display: flex;
-
-
+        flex-direction: row;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0 3px 3px #444;
+        margin-bottom: 1.5em;
+        padding: 1em 2em;
     }
-
-    header .logo_epicode img {
-        width: 100%;
-        margin-left: 2em;
-        margin-top: 1.5em;
+    header div img {
+        width: 70%;
     }
-
-    header .header_paragrafo p {
-        font-size: 1.6em;
-        font-weight: 500;
-        margin: 1.5em 1em 1em 2em;
+    header div p {
+        margin: 0px;
     }
-
-    header ul {
-        font-size: 1.6em;
-        font-weight: 500;
-        margin-right: 5em;
-        text-align: right;
-
+    header nav {
+        margin-left: auto;
     }
-
+    header nav ul {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    header nav li {
+        margin: 0px 10px;
+        list-style: none;
+    }
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    header nav li a:hover {
+        color: red;
+    }
+    header nav li a::before {
+        content: "\22c6\0020";
+    }
     main h1 {
         font-size: 6rem;
     }
@@ -341,5 +352,5 @@ footer a {
     input {
         width: 70%;
     }
-    
+
 }
