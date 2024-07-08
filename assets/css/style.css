@@ -381,3 +381,21 @@ footer a {
         margin: auto;
     }
 }
+    @media print {
+       
+        header{
+            display: none;
+        }
+        
+        .iframe_h2{
+            display: none;
+        }
+        footer{
+            display: none;
+        }
+        aside{
+            display: none;
+        }
+        
+
+    }
